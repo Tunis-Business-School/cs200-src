@@ -1,0 +1,126 @@
+p {
+  color: #333; /* Text color */
+  background-color: #f2f2f2; /* Background color */
+  border: 1px solid #ccc; /* Border color */
+}
+
+h2 {
+  font-family: "Arial", sans-serif; /* Font family */
+  font-size: 24px; /* Font size */
+  font-style: italic; /* Font style */
+}
+
+a {
+  text-align: center; /* Text alignment */
+  text-decoration: none; /* Text decoration */
+}
+div {
+  margin: 10px; /* Outer spacing */
+  padding: 5px; /* Inner spacing */
+}
+
+img {
+  border: 2px solid #007bff; /* Border style and color */
+}
+
+body {
+  background-image: url("background.jpg"); /* Background image */
+  background-color: #f2f2f2; /* Background color */
+}
+
+table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+th {
+  /*background-color: #333;*/
+  color: #fff;
+  font-weight: bold;
+}
+
+td {
+  /*background-color: #f0f0f0;*/
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+tr:nth-child(odd) {
+  background-color: #771616;
+}
+tr:nth-child(even) {
+  background-color: #2b2eb9;
+}
+
+tr:hover {
+  background-color: #ffcc00;
+}
+input {
+  border: 1px solid #333;
+}
+
+input[type="submit"] {
+  border: none;
+  background-color: #333;
+  color: #fff;
+}
+
+input[type="text"] {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+input[type="email"] {
+  background-color: #e0e0e0;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border: 2px solid #ffcc00;
+}
+
+input[type="submit"]:hover {
+  background-color: #444;
+  color: #fff;
+}
+label {
+  font-weight: bold;
+  color: #333;
+}
+button,
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+form {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+ol {
+  list-style: upper-roman;
+  margin-left: 30px; /* Indent the list */
+}
+ul {
+  list-style: square;
+}
+li {
+  color: #333; /* Change text color */
+  font-weight: bold; /* Make text bold */
+}
+ul:hover li {
+  background-color: #f0f0f0; /* Change background on hover */
+  cursor: pointer; /* Change cursor on hover */
+}

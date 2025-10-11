@@ -1,0 +1,46 @@
+Assignment: Personal Portfolio Website - CSS Styling
+
+Objective: In this assignment, you will create a personal portfolio website and practice applying CSS styling to various elements within the web page. This assignment will help you explore different CSS styling properties and techniques.
+
+HTML Structure (Starting Point): portfolio.html
+
+Instructions:
+
+Typography and Text Styling:
+
+Apply a custom font family to all text elements on the page.
+Set different font sizes for the headings (h1, h2, h3) and paragraphs (p).
+Change the color of text elements to create a visually appealing color scheme.
+Adjust line height and letter spacing for improved readability.
+
+Header Styling:
+
+Style the header (<header>) with a background color or image.
+Add padding and margins to align and space elements within the header.
+Style the navigation menu (<nav>) with a different background color and text color.
+
+Navigation Menu:
+
+Style the navigation menu items (<li>) to change appearance on hover.
+Add spacing between menu items.
+
+Section Styling:
+
+Apply different background colors, borders, and padding to each section (<section>).
+Use margins to separate sections and create visual distinction.
+
+Project Cards:
+
+Style the project cards (<div class="project">) with borders, shadows, and padding.
+Change the background color or image of the cards.
+Adjust text alignment and spacing within the cards.
+
+Links:
+
+Customize the appearance of links (<a>) to stand out from regular text.
+Change the link color and apply different styles on hover.
+
+Contact Information:
+
+Style the contact information section (#contact) with a background color or image.
+Adjust the appearance of the email link.

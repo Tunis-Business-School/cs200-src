@@ -1,0 +1,11 @@
+#header{
+    color:blue;
+}
+#content{
+    color:brown;
+}
+
+.highlight{
+    color: blueviolet;
+    font-size: 20px;
+}

@@ -1,0 +1,9 @@
+Suppose you are working on a recipe website. 
+Recipes have a title, a list of ingredients, and an instructions section. 
+Make a webpage that shows the recipe for grilled cheese sandwiches with ham and tomato. 
+The ingredients should be displayed as an unordered list, with no bullets. 
+Meat ingredients should have a light red background color.
+Vegetables should have a light green background
+Dairy products should have a light yellow. 
+The title should be in a sans-serif font of your choice
+The instructions should have a heading “Instructions” and the font for the instructions should be italic.
