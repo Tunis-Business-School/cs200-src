@@ -1,7 +1,3 @@
-Great, thanks for the details! Here’s a clear and student-friendly README.md template for your repo, following best practices.
-
----
-
 # CS200: Web Development  
 **Tunis Business School**
 
@@ -60,7 +56,3 @@ If you have questions about the code or course content, please reach out to your
 ## 📄 License
 
 This repository is intended for educational use by students of Tunis Business School.
-
----
-
-Let me know if you want to add a course logo, instructor name, or any other details!
