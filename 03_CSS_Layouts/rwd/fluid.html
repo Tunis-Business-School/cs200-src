@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex: 1;
+            margin: 10px;
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* CSS for screens smaller than 600px */
+        @media screen and (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="column">Column 1</div>
+        <div class="column">Column 2</div>
+        <div class="column">Column 3</div>
+    </div>
+    <img src="../image.jpeg" alt="Responsive Image" style="max-width: 100%;">
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+.meat {
+  background-color: #ffcccc;
+}
+
+.vegetables {
+  background-color: #ccffcc;
+}
+
+.dairy {
+  background-color: #ffff99;
+}
+
+h2 {
+  font-style: italic;
+}

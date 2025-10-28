@@ -1,0 +1,26 @@
+/* Default layout - two columns side by side */
+.container {
+    display: flex;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Media query for smaller screens - stack columns vertically */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+        border: none;
+    }
+}
+div {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}

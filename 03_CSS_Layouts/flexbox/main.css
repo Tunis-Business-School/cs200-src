@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center; /* center alignment */
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: space-between; /* space between items */
+  }
+  
+  .container3 {
+    display: flex;
+    align-items: center; /* center alignment */
+  }
+
+  .container4 {
+    display: flex;
+    align-items: flex-end; /* bottom alignment */
+  }
+  .item-1 {
+    order: 2;
+  }
+  .item-2 {
+    order: -1; /* moves to the beginning */
+  }
+  .item {
+    flex: 1; /* equal distribution of space */
+  }
+  
+  
+  
