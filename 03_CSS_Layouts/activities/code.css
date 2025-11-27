@@ -1,0 +1,12 @@
+.photo-item {
+  flex: 0 0 calc(33.33% - 20px); /* Defines the width of each photo with 20px spacing between photos. */
+  margin: 10px; /* Adds space around each photo for separation. */
+  border: 2px solid #333; /* Adds a border around each photo. You can customize the border color. */
+}
+.photo-item p {
+  text-align: center; /* Center-aligns the captions. */
+  font-size: 16px; /* Sets the font size for captions. */
+}
+.photo-item:hover {
+  background-color: #f0f0f0; /* Change the background color when hovering. */
+}

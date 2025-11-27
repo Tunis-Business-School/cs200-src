@@ -10,7 +10,7 @@
 }
 
 /* Media query for smaller screens - stack columns vertically */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
     .container {
         flex-direction: column;
     }
