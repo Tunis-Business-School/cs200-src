@@ -1,0 +1,17 @@
+HTML Structure:
+Create the HTML structure:
+Create an HTML file (e.g., index.html).
+Inside the <body> tag, create a container for the Todo list.
+Add an input field for entering tasks and a button to add tasks.
+Create an unordered list (<ul>) to display the tasks.
+Include a checkbox or delete button for each task item.
+CSS Styling:
+Apply CSS styles:
+Style the container, input field, button, and list to make them visually appealing.
+Use CSS to structure the Todo list, align elements, set font styles, and add basic colors.
+JavaScript Functionality:
+Add JavaScript for functionality:
+Use JavaScript to handle user interactions and manage Todo list functionality.
+Create an event listener for the "Add" button to add tasks to the list.
+Implement functionality to mark tasks as completed by checking a checkbox.
+Include the option to delete tasks from the list using a delete button.

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UI Events Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 2000px; /* For scroll demonstration */
+    }
+    #status {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: #fff;
+      padding: 10px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="status">
+    <p id="loadStatus">Load Event: Not Fired</p>
+    <p id="unloadStatus">Unload Event: Not Fired</p>
+    <p id="resizeStatus">Resize Event: Not Fired</p>
+    <p id="scrollStatus">Scroll Event: Not Fired</p>
+  </div>
+
+  <script>
+
+function loadfunction (){
+      document.getElementById('loadStatus').innerText = 'Load Event: Page Loaded';
+    }
+
+    window.addEventListener('load', loadfunction);
+
+    window.addEventListener('unload', () => {
+      document.getElementById('unloadStatus').innerText = 'Unload Event: Page Unloaded';
+    });
+
+    window.addEventListener('resize', () => {
+      document.getElementById('resizeStatus').innerText = 'Resize Event: Window Resized';
+    });
+
+    window.addEventListener('scroll', () => {
+      document.getElementById('scrollStatus').innerText = 'Scroll Event: Page Scrolled';
+    });
+  </script>
+</body>
+</html>

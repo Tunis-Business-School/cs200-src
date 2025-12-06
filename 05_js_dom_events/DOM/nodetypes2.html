@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="parentNode">
+  Text Node
+  <!-- Comment Node -->
+</div>
+
+<script>
+const parent = document.getElementById('parentNode');
+console.log(parent.childNodes[0].nodeType); // Output: 3 (Text Node)
+console.log(parent.childNodes[1].nodeType); // Output: 8 (Comment Node)
+</script>
+
+</body>
+</html>

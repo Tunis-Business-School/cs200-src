@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse Events</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: #3498db;
+      color: #fff;
+      display: inline-block;
+      margin: 20px;
+      padding: 10px;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+    }
+    .box:hover {
+      transform: scale(1.1);
+      background-color: #2980b9;
+    }
+    .box:active {
+      transform: scale(0.9);
+      background-color: #1f618d;
+    }
+  </style>
+</head>
+<body>
+  <div class="box" id="box1" onmouseover="mouseOver(event)" onmouseout="mouseOut(event)" onclick="mouseClick(event)">Hover over me</div>
+  <div class="box" id="box2" onmouseover="mouseOver(event)" onmouseout="mouseOut(event)" onclick="mouseClick(event)">Hover over me</div>
+  <div id="clickInfo"></div>
+
+  <script src="app4.js"></script>
+</body>
+</html>

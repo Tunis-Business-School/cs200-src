@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse Events</title>
+  <style>
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div id="myDiv" onmouseover="highlight()" onmouseout="removeHighlight()">Hover over me</div>
+
+  <script>
+    function highlight() {
+      document.getElementById('myDiv').classList.add('highlight');
+    }
+
+    function removeHighlight() {
+      document.getElementById('myDiv').classList.remove('highlight');
+    }
+  </script>
+</body>
+</html>
